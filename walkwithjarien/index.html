@@ -3,24 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Walk With Jarien — Private Gidjuum Gulganyi Experiences</title>
+<title>Walk with Jarien | Private Guided Walks · Mullumbimby & Northern Rivers NSW</title>
+<meta name="description" content="Private guided walks with Jarien — a born-and-raised local guide with Kimberley experience and a passion for bush tucker. Half day, full day and multi-day experiences in and around Mullumbimby, Byron Bay hinterland and Northern Rivers NSW.">
+<meta name="keywords" content="private guided walk Mullumbimby, walking guide Northern Rivers NSW, Byron Bay hinterland walk, bush tucker tour Mullumbimby, private hiking guide NSW, guided walk Northern NSW, Jarien guide, nature walk Byron Bay, rainforest walk Mullumbimby">
+<meta property="og:title" content="Walk with Jarien | Private Guided Walks · Northern Rivers NSW">
+<meta property="og:description" content="Private half day, full day and multi-day guided walks around Mullumbimby and the Byron Bay hinterland. Expert local guide. Bush tucker. Small groups.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://alivefoods.com">
+<link rel="canonical" href="https://alivefoods.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <style>
-:root {
-  --ink:#1a1208; --bark:#3b2a1a; --moss:#4a5c3a; --fern:#7a9c5e;
-  --clay:#c47c3a; --cream:#f5f0e8; --mist:#e8e2d6; --gold:#c9a84c; --white:#fdfaf5;
-}
+:root{--ink:#1a1208;--bark:#3b2a1a;--moss:#4a5c3a;--fern:#7a9c5e;--clay:#c47c3a;--cream:#f5f0e8;--mist:#e8e2d6;--gold:#c9a84c;--white:#fdfaf5;}
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 body{background:var(--white);color:var(--ink);font-family:"Crimson Pro",Georgia,serif;font-weight:300;overflow-x:hidden;cursor:none;}
 .cursor{width:12px;height:12px;background:var(--clay);border-radius:50%;position:fixed;pointer-events:none;z-index:9999;transition:transform 0.15s ease;mix-blend-mode:multiply;}
 .cursor-ring{width:36px;height:36px;border:1px solid var(--clay);border-radius:50%;position:fixed;pointer-events:none;z-index:9998;transition:all 0.3s ease;mix-blend-mode:multiply;}
 
-/* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 6vw;display:flex;justify-content:space-between;align-items:center;background:rgba(26,18,8,0.88);backdrop-filter:blur(12px);border-bottom:1px solid rgba(201,168,76,0.15);}
 .nav-brand{font-family:"Playfair Display",Georgia,serif;font-style:italic;font-size:1.3rem;color:var(--gold);text-decoration:none;}
 .nav-links{display:flex;gap:2.5rem;list-style:none;}
@@ -29,17 +32,16 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 6vw;display:f
 .nav-cta{font-family:"Space Mono",monospace;font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;padding:0.6rem 1.4rem;background:var(--clay);color:var(--cream);text-decoration:none;transition:background 0.2s;}
 .nav-cta:hover{background:var(--gold);color:var(--ink);}
 
-/* HERO */
 .hero{min-height:100vh;position:relative;display:flex;flex-direction:column;justify-content:flex-end;padding:0 6vw 8vh;overflow:hidden;}
 .hero-img{position:absolute;inset:0;z-index:0;}
-.hero-img img{width:100%;height:100%;object-fit:cover;object-position:center;}
-.hero-overlay{position:absolute;inset:0;background:linear-gradient(160deg,rgba(26,18,8,0.85) 0%,rgba(26,18,8,0.6) 50%,rgba(59,42,26,0.4) 100%);z-index:1;}
+.hero-img img{width:100%;height:100%;object-fit:cover;object-position:center 30%;}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(160deg,rgba(26,18,8,0.82) 0%,rgba(26,18,8,0.55) 50%,rgba(59,42,26,0.35) 100%);z-index:1;}
 .hero-line{position:absolute;top:0;right:14vw;width:1px;height:100%;background:linear-gradient(to bottom,transparent 0%,rgba(201,168,76,0.4) 30%,rgba(201,168,76,0.15) 100%);z-index:2;}
 .hero-eyebrow{font-family:"Space Mono",monospace;font-size:0.65rem;letter-spacing:0.25em;color:var(--gold);text-transform:uppercase;position:relative;z-index:3;margin-bottom:2rem;opacity:0;animation:fadeUp 0.8s ease 0.2s forwards;}
 .hero-eyebrow::before{content:"";display:inline-block;width:2rem;height:1px;background:var(--gold);vertical-align:middle;margin-right:1rem;}
-.hero-title{font-family:"Playfair Display",Georgia,serif;font-size:clamp(3.5rem,8vw,7.5rem);line-height:0.92;color:var(--cream);position:relative;z-index:3;margin-bottom:2.5rem;opacity:0;animation:fadeUp 0.9s ease 0.4s forwards;}
+.hero-title{font-family:"Playfair Display",Georgia,serif;font-size:clamp(3rem,7.5vw,7rem);line-height:0.95;color:var(--cream);position:relative;z-index:3;margin-bottom:2.5rem;opacity:0;animation:fadeUp 0.9s ease 0.4s forwards;}
 .hero-title em{font-style:italic;color:var(--gold);}
-.hero-sub{font-size:clamp(1.1rem,2vw,1.4rem);color:rgba(245,240,232,0.8);max-width:38rem;line-height:1.7;position:relative;z-index:3;margin-bottom:3.5rem;opacity:0;animation:fadeUp 0.9s ease 0.6s forwards;}
+.hero-sub{font-size:clamp(1.1rem,2vw,1.35rem);color:rgba(245,240,232,0.8);max-width:42rem;line-height:1.75;position:relative;z-index:3;margin-bottom:3.5rem;opacity:0;animation:fadeUp 0.9s ease 0.6s forwards;}
 .hero-cta{display:flex;gap:1.5rem;align-items:center;position:relative;z-index:3;opacity:0;animation:fadeUp 0.9s ease 0.8s forwards;flex-wrap:wrap;}
 .btn-primary{font-family:"Space Mono",monospace;font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;padding:1.1rem 2.5rem;background:var(--clay);color:var(--cream);border:none;text-decoration:none;display:inline-block;transition:all 0.3s ease;}
 .btn-primary:hover{background:var(--gold);color:var(--ink);transform:translateY(-2px);}
@@ -49,9 +51,17 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 6vw;display:f
 .hero-scroll span{font-family:"Space Mono",monospace;font-size:0.55rem;letter-spacing:0.2em;color:rgba(245,240,232,0.4);text-transform:uppercase;writing-mode:vertical-rl;}
 .scroll-line{width:1px;height:4rem;background:linear-gradient(to bottom,rgba(201,168,76,0.6),transparent);animation:scrollPulse 2s ease-in-out infinite;}
 
+/* USPs strip */
+.usps{background:var(--bark);padding:3rem 6vw;}
+.usps-inner{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;}
+.usp{text-align:center;padding:1.5rem;}
+.usp .icon{font-size:1.8rem;margin-bottom:0.8rem;display:block;}
+.usp h3{font-family:"Space Mono",monospace;font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:0.5rem;}
+.usp p{font-size:0.9rem;color:rgba(245,240,232,0.6);line-height:1.6;}
+
 /* INTRO */
 .intro{padding:10vh 6vw;display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:center;max-width:1400px;margin:0 auto;}
-.intro-label{font-family:"Space Mono",monospace;font-size:0.6rem;letter-spacing:0.3em;color:var(--clay);text-transform:uppercase;margin-bottom:1.5rem;}
+.section-label{font-family:"Space Mono",monospace;font-size:0.6rem;letter-spacing:0.3em;color:var(--clay);text-transform:uppercase;margin-bottom:1.5rem;display:block;}
 .intro-text h2{font-family:"Playfair Display",Georgia,serif;font-size:clamp(2rem,3.5vw,3rem);line-height:1.2;color:var(--bark);margin-bottom:1.5rem;}
 .intro-text h2 em{font-style:italic;color:var(--moss);}
 .intro-text p{font-size:1.15rem;line-height:1.9;color:#4a3c2a;margin-bottom:1.2rem;}
@@ -73,20 +83,19 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 6vw;display:f
 .wildlife-caption h4{font-family:"Playfair Display",Georgia,serif;font-style:italic;color:var(--cream);font-size:1.1rem;}
 .wildlife-caption p{font-family:"Space Mono",monospace;font-size:0.55rem;letter-spacing:0.12em;color:rgba(245,240,232,0.6);text-transform:uppercase;margin-top:0.2rem;}
 
-/* RAINFOREST FEATURE */
-.rainforest-feature{position:relative;height:60vh;overflow:hidden;}
-.rainforest-feature img{width:100%;height:100%;object-fit:cover;}
-.rainforest-feature::after{content:"";position:absolute;inset:0;background:linear-gradient(to right,rgba(26,18,8,0.8) 0%,rgba(26,18,8,0.2) 60%,transparent 100%);}
-.rainforest-text{position:absolute;top:50%;left:6vw;transform:translateY(-50%);z-index:2;max-width:38rem;}
-.rainforest-text h2{font-family:"Playfair Display",Georgia,serif;font-size:clamp(2.2rem,4vw,3.5rem);color:var(--cream);line-height:1.15;margin-bottom:1rem;}
-.rainforest-text h2 em{font-style:italic;color:var(--gold);}
-.rainforest-text p{font-size:1.1rem;color:rgba(245,240,232,0.8);line-height:1.7;}
+/* MOUNTAIN FEATURE */
+.mountain-feature{position:relative;height:60vh;overflow:hidden;}
+.mountain-feature img{width:100%;height:100%;object-fit:cover;}
+.mountain-feature::after{content:"";position:absolute;inset:0;background:linear-gradient(to right,rgba(26,18,8,0.8) 0%,rgba(26,18,8,0.2) 60%,transparent 100%);}
+.mountain-text{position:absolute;top:50%;left:6vw;transform:translateY(-50%);z-index:2;max-width:38rem;}
+.mountain-text h2{font-family:"Playfair Display",Georgia,serif;font-size:clamp(2.2rem,4vw,3.5rem);color:var(--cream);line-height:1.15;margin-bottom:1rem;}
+.mountain-text h2 em{font-style:italic;color:var(--gold);}
+.mountain-text p{font-size:1.1rem;color:rgba(245,240,232,0.8);line-height:1.7;}
 
 /* JARIEN */
 .jarien{background:var(--ink);padding:10vh 6vw;position:relative;overflow:hidden;}
 .jarien-bg{position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 80% 50%,rgba(74,92,58,0.25) 0%,transparent 70%);}
 .jarien-inner{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1.2fr 1fr;gap:6vw;align-items:start;position:relative;z-index:2;}
-.section-label{font-family:"Space Mono",monospace;font-size:0.6rem;letter-spacing:0.3em;color:var(--clay);text-transform:uppercase;margin-bottom:1.5rem;display:block;}
 .jarien-text .section-label{color:var(--gold);}
 .jarien-text h2{font-family:"Playfair Display",Georgia,serif;font-size:clamp(2.5rem,4vw,3.8rem);color:var(--cream);line-height:1.1;margin-bottom:2rem;}
 .jarien-text h2 em{font-style:italic;color:var(--fern);}
@@ -103,10 +112,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 6vw;display:f
 
 /* PACKAGES */
 .packages{padding:12vh 6vw;background:var(--cream);}
-.packages-header{max-width:1400px;margin:0 auto 5rem;display:flex;justify-content:space-between;align-items:flex-end;}
+.packages-header{max-width:1400px;margin:0 auto 5rem;display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:2rem;}
 .packages-header h2{font-family:"Playfair Display",Georgia,serif;font-size:clamp(2rem,3.5vw,3rem);color:var(--bark);line-height:1.2;}
 .packages-header h2 em{font-style:italic;color:var(--moss);}
-.packages-header p{font-size:1.05rem;color:#6a5a48;max-width:28rem;line-height:1.7;}
+.packages-header p{font-size:1.05rem;color:#6a5a48;max-width:30rem;line-height:1.7;}
 .package-grid{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:1.5rem;align-items:start;}
 .package-card{background:var(--white);border:1px solid var(--mist);padding:2.5rem;position:relative;transition:transform 0.3s ease,box-shadow 0.3s ease;}
 .package-card:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(59,42,26,0.12);}
@@ -119,27 +128,44 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 6vw;display:f
 .featured .package-name{color:var(--cream);}
 .package-tagline{font-style:italic;font-size:1rem;color:#7a6a58;margin-bottom:1.8rem;}
 .featured .package-tagline{color:rgba(245,240,232,0.65);}
-.package-price{display:flex;align-items:baseline;gap:0.4rem;margin-bottom:0.3rem;}
-.price-amount{font-family:"Playfair Display",Georgia,serif;font-size:2.8rem;color:var(--bark);line-height:1;}
-.featured .price-amount{color:var(--gold);}
-.price-unit{font-family:"Space Mono",monospace;font-size:0.65rem;color:#7a6a58;letter-spacing:0.08em;}
-.featured .price-unit{color:rgba(245,240,232,0.5);}
-.price-note{font-size:0.85rem;color:#9a8878;margin-bottom:2rem;font-style:italic;}
-.featured .price-note{color:rgba(245,240,232,0.45);}
-.package-divider{height:1px;background:var(--mist);margin-bottom:1.8rem;}
+.price-table{width:100%;border-collapse:collapse;margin-bottom:1.5rem;}
+.price-table td{padding:0.5rem 0;border-bottom:1px solid rgba(59,42,26,0.1);font-size:0.95rem;color:#4a3c2a;}
+.featured .price-table td{border-bottom-color:rgba(245,240,232,0.1);color:rgba(245,240,232,0.75);}
+.price-table td:last-child{text-align:right;font-family:"Space Mono",monospace;font-size:0.8rem;color:var(--clay);}
+.featured .price-table td:last-child{color:var(--gold);}
+.price-note{font-size:0.82rem;color:#9a8878;margin-bottom:2rem;font-style:italic;line-height:1.5;}
+.featured .price-note{color:rgba(245,240,232,0.4);}
+.package-divider{height:1px;background:var(--mist);margin:1.5rem 0;}
 .featured .package-divider{background:rgba(245,240,232,0.15);}
 .package-includes{list-style:none;display:flex;flex-direction:column;gap:0.65rem;margin-bottom:2.5rem;}
 .package-includes li{font-size:0.98rem;color:#4a3c2a;padding-left:1.4rem;position:relative;line-height:1.5;}
 .featured .package-includes li{color:rgba(245,240,232,0.8);}
 .package-includes li::before{content:"&#10022;";position:absolute;left:0;font-size:0.5rem;color:var(--fern);top:0.4rem;}
 .featured .package-includes li::before{color:var(--gold);}
-.package-btn{display:block;text-align:center;font-family:"Space Mono",monospace;font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;padding:1rem 2rem;text-decoration:none;transition:all 0.3s ease;cursor:pointer;}
+.package-btn{display:block;text-align:center;font-family:"Space Mono",monospace;font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;padding:1rem 2rem;text-decoration:none;transition:all 0.3s ease;cursor:pointer;border:none;}
 .package-btn.dark{background:var(--bark);color:var(--cream);}
 .package-btn.dark:hover{background:var(--moss);}
 .package-btn.gold{background:var(--gold);color:var(--ink);}
 .package-btn.gold:hover{background:var(--clay);color:var(--cream);}
 .package-btn.outline{border:1px solid var(--bark);color:var(--bark);}
 .package-btn.outline:hover{background:var(--bark);color:var(--cream);}
+
+/* WHAT A DAY LOOKS LIKE */
+.dayshape{padding:12vh 6vw;background:var(--white);}
+.dayshape-inner{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1.8fr;gap:6vw;align-items:start;}
+.dayshape-intro h2{font-family:"Playfair Display",Georgia,serif;font-size:clamp(2rem,3vw,2.8rem);color:var(--bark);line-height:1.2;margin-bottom:1.5rem;}
+.dayshape-intro h2 em{font-style:italic;color:var(--moss);}
+.dayshape-intro p{font-size:1.05rem;color:#6a5a48;line-height:1.8;margin-bottom:1.5rem;}
+.day-list{display:flex;flex-direction:column;}
+.day-item{display:grid;grid-template-columns:5rem 1fr;position:relative;}
+.day-item:not(:last-child) .day-connector{position:absolute;left:2.45rem;top:3.5rem;bottom:0;width:1px;background:linear-gradient(to bottom,var(--clay),var(--mist));z-index:0;}
+.day-num-wrap{display:flex;flex-direction:column;align-items:center;padding-top:1.5rem;position:relative;z-index:1;}
+.day-dot{width:2rem;height:2rem;background:var(--clay);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:"Space Mono",monospace;font-size:0.55rem;color:var(--cream);font-weight:700;flex-shrink:0;}
+.day-content{padding:1.5rem 0 2.5rem 2rem;border-bottom:1px solid var(--mist);}
+.day-label{font-family:"Space Mono",monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--clay);margin-bottom:0.4rem;}
+.day-content h3{font-family:"Playfair Display",Georgia,serif;font-size:1.3rem;color:var(--bark);margin-bottom:0.6rem;}
+.day-content p{font-size:0.95rem;color:#6a5a48;line-height:1.7;margin-bottom:0.6rem;}
+.tucker-talk-badge{display:inline-block;font-family:"Space Mono",monospace;font-size:0.55rem;letter-spacing:0.1em;text-transform:uppercase;background:rgba(201,168,76,0.15);border:1px solid rgba(201,168,76,0.4);color:var(--gold);padding:0.25rem 0.7rem;margin-top:0.5rem;}
 
 /* BUSH TUCKER */
 .bushtucker{padding:12vh 6vw;background:var(--ink);position:relative;overflow:hidden;}
@@ -166,7 +192,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 6vw;display:f
 .tucker-feature h3{font-family:"Playfair Display",Georgia,serif;font-size:1.15rem;color:var(--cream);margin-bottom:0.5rem;}
 .tucker-feature p{font-size:0.95rem;color:rgba(245,240,232,0.6);line-height:1.7;}
 
-/* FOOD / MEALS */
+/* FOOD */
 .food{padding:12vh 6vw;background:var(--moss);position:relative;overflow:hidden;}
 .food::before{content:"";position:absolute;top:-10rem;right:-10rem;width:40rem;height:40rem;border-radius:50%;background:rgba(245,240,232,0.04);}
 .food-inner{max-width:1400px;margin:0 auto;position:relative;z-index:2;}
@@ -180,24 +206,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 6vw;display:f
 .food-icon{font-size:2rem;margin-bottom:1rem;}
 .food-card h3{font-family:"Playfair Display",Georgia,serif;font-size:1.2rem;color:var(--cream);margin-bottom:0.5rem;}
 .food-card p{font-size:0.95rem;color:rgba(245,240,232,0.65);line-height:1.7;}
-
-/* ITINERARY */
-.itinerary{padding:12vh 6vw;background:var(--white);}
-.itinerary-inner{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1.8fr;gap:6vw;align-items:start;}
-.itinerary-intro h2{font-family:"Playfair Display",Georgia,serif;font-size:clamp(2rem,3vw,2.8rem);color:var(--bark);line-height:1.2;margin-bottom:1.5rem;}
-.itinerary-intro h2 em{font-style:italic;color:var(--moss);}
-.itinerary-intro p{font-size:1.05rem;color:#6a5a48;line-height:1.8;margin-bottom:1.5rem;}
-.day-list{display:flex;flex-direction:column;}
-.day-item{display:grid;grid-template-columns:5rem 1fr;position:relative;}
-.day-item:not(:last-child) .day-connector{position:absolute;left:2.45rem;top:3.5rem;bottom:0;width:1px;background:linear-gradient(to bottom,var(--clay),var(--mist));z-index:0;}
-.day-num-wrap{display:flex;flex-direction:column;align-items:center;padding-top:1.5rem;position:relative;z-index:1;}
-.day-dot{width:2rem;height:2rem;background:var(--clay);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:"Space Mono",monospace;font-size:0.55rem;color:var(--cream);font-weight:700;flex-shrink:0;}
-.day-content{padding:1.5rem 0 2.5rem 2rem;border-bottom:1px solid var(--mist);}
-.day-label{font-family:"Space Mono",monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--clay);margin-bottom:0.4rem;}
-.day-content h3{font-family:"Playfair Display",Georgia,serif;font-size:1.3rem;color:var(--bark);margin-bottom:0.6rem;}
-.day-content p{font-size:0.95rem;color:#6a5a48;line-height:1.7;margin-bottom:0.6rem;}
-.day-meals{font-family:"Space Mono",monospace;font-size:0.6rem;letter-spacing:0.08em;color:var(--fern);text-transform:uppercase;}
-.tucker-talk-badge{display:inline-block;font-family:"Space Mono",monospace;font-size:0.55rem;letter-spacing:0.1em;text-transform:uppercase;background:rgba(201,168,76,0.15);border:1px solid rgba(201,168,76,0.4);color:var(--gold);padding:0.25rem 0.7rem;margin-top:0.5rem;}
 
 /* LOGISTICS */
 .logistics{background:var(--bark);padding:10vh 6vw;}
@@ -229,9 +237,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 6vw;display:f
 .form-submit:hover{background:var(--bark);transform:translateY(-2px);}
 .form-submit:disabled{opacity:0.6;cursor:not-allowed;transform:none;}
 #success-msg{display:none;margin-top:2rem;color:var(--moss);font-family:"Space Mono",monospace;font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;}
-#error-msg{display:none;margin-top:1rem;color:#c0392b;font-family:"Space Mono",monospace;font-size:0.7rem;letter-spacing:0.08em;}
+#error-msg{display:none;margin-top:1rem;color:#c0392b;font-family:"Space Mono",monospace;font-size:0.7rem;}
 
-/* FOOTER */
 footer{background:var(--ink);padding:4vh 6vw;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;}
 .footer-brand{font-family:"Playfair Display",Georgia,serif;font-style:italic;font-size:1.3rem;color:var(--gold);}
 .footer-links{display:flex;gap:2rem;list-style:none;}
@@ -248,18 +255,18 @@ footer{background:var(--ink);padding:4vh 6vw;display:flex;justify-content:space-
 .reveal-delay-3{transition-delay:0.3s;}
 
 @media(max-width:900px){
-  .intro,.jarien-inner,.itinerary-inner,.bushtucker-intro{grid-template-columns:1fr;}
-  .package-grid,.food-photo-grid{grid-template-columns:1fr;}
+  .intro,.jarien-inner,.dayshape-inner,.bushtucker-intro{grid-template-columns:1fr;}
+  .package-grid{grid-template-columns:1fr;}
   .package-card.featured{transform:none;}
-  .food-grid,.logistics-grid,.tucker-features,.wildlife-grid{grid-template-columns:1fr 1fr;}
-  .packages-header{flex-direction:column;align-items:flex-start;gap:1rem;}
+  .food-grid,.logistics-grid,.tucker-features,.wildlife-grid,.food-photo-grid,.usps-inner{grid-template-columns:1fr 1fr;}
+  .packages-header{flex-direction:column;align-items:flex-start;}
   .form-row{grid-template-columns:1fr;}
   body{cursor:auto;}
   .cursor,.cursor-ring{display:none;}
   nav .nav-links{display:none;}
 }
 @media(max-width:600px){
-  .food-grid,.logistics-grid,.tucker-features,.wildlife-grid,.food-photo-grid{grid-template-columns:1fr;}
+  .food-grid,.logistics-grid,.tucker-features,.wildlife-grid,.food-photo-grid,.usps-inner{grid-template-columns:1fr;}
 }
 </style>
 </head>
@@ -274,54 +281,64 @@ footer{background:var(--ink);padding:4vh 6vw;display:flex;justify-content:space-
     <li><a href="#jarien">The Guide</a></li>
     <li><a href="#packages">Packages</a></li>
     <li><a href="#bush-tucker">Bush Tucker</a></li>
-    <li><a href="#itinerary">Itinerary</a></li>
+    <li><a href="#booking">Book</a></li>
   </ul>
   <a href="#booking" class="nav-cta">Book Now</a>
 </nav>
 
+<!-- HERO -->
 <section class="hero">
-  <div class="hero-img"><img src="images/hero-rainforest.jpg" alt="Gondwana rainforest Northern NSW"></div>
+  <div class="hero-img"><img src="images/mt-wollumbin.jpg" alt="Mt Wollumbin and Tweed Caldera at sunrise, Northern Rivers NSW"></div>
   <div class="hero-overlay"></div>
   <div class="hero-line"></div>
-  <p class="hero-eyebrow">Gidjuum Gulganyi Walk &middot; Private Guided Experiences</p>
-  <h1 class="hero-title">Walk the<br><em>Old People's</em><br>Track</h1>
-  <p class="hero-sub">A private, fully guided 4-day journey through Gondwanan rainforest on Bundjalung Country &mdash; with your own expert local guide, fresh bush-inspired meals, and nothing between you and the land.</p>
+  <p class="hero-eyebrow">Private Guided Walks &middot; Mullumbimby &amp; Northern Rivers NSW</p>
+  <h1 class="hero-title">Know this country<br><em>from the inside.</em></h1>
+  <p class="hero-sub">Private half day, full day and multi-day guided walks with Jarien &mdash; born and raised in the Northern Rivers, with Kimberley guiding experience and a deep passion for bush tucker and wild country.</p>
   <div class="hero-cta">
-    <a href="#packages" class="btn-primary">View Packages</a>
+    <a href="#packages" class="btn-primary">View Experiences</a>
     <a href="#booking" class="btn-ghost">Enquire Now</a>
   </div>
-  <div class="hero-scroll">
-    <div class="scroll-line"></div>
-    <span>Scroll</span>
+  <div class="hero-scroll"><div class="scroll-line"></div><span>Scroll</span></div>
+</section>
+
+<!-- USPs -->
+<section class="usps">
+  <div class="usps-inner">
+    <div class="usp"><span class="icon">&#127807;</span><h3>Bush Tucker</h3><p>Forage, taste and learn about native foods on every walk</p></div>
+    <div class="usp"><span class="icon">&#127968;</span><h3>Born Local</h3><p>Jarien grew up in this country &mdash; the stories come with the land</p></div>
+    <div class="usp"><span class="icon">&#128101;</span><h3>Private Only</h3><p>Your group exclusively &mdash; never shared with strangers</p></div>
+    <div class="usp"><span class="icon">&#9981;</span><h3>Half Day to Multi-Day</h3><p>Tailored length, pace and terrain to suit your group</p></div>
   </div>
 </section>
 
+<!-- INTRO -->
 <section style="padding-top:10vh;background:var(--white);">
   <div class="intro">
     <div class="intro-text reveal">
-      <p class="intro-label">About The Walk</p>
-      <h2>42km of ancient <em>volcanic country.</em> Just you and the forest.</h2>
-      <p>The Gidjuum Gulganyi Walk traces the rim of a vast ancient caldera through Mount Jerusalem and Nightcap National Parks &mdash; one of Australia's most spectacular new multi-day trails, opened 2024.</p>
-      <p>Our private experiences are strictly limited to intimate groups, giving you undivided attention, a fully customised pace, and access to the stories and knowledge that only a born-and-raised local guide can offer.</p>
+      <span class="section-label">About the Experience</span>
+      <h2>The Northern Rivers hinterland, <em>as only a local knows it.</em></h2>
+      <p>The country around Mullumbimby, the Tweed hinterland and the Byron Bay ranges is some of the most extraordinary landscape in Australia &mdash; ancient volcanic country draped in Gondwana rainforest, alive with wildlife, native food plants and stories stretching back tens of thousands of years.</p>
+      <p>Jarien offers private guided walks on trails, private land and accessible areas throughout the region &mdash; crafting each experience around your group, your pace and what you want to discover. From a gentle morning walk with bush tucker tastings to a challenging multi-day adventure with a camp cook and fire-cooked meals under the stars.</p>
     </div>
     <div class="intro-visual reveal reveal-delay-2">
       <div class="intro-card">
-        <p class="intro-label" style="color:var(--gold);margin-bottom:0.5rem;">The walk at a glance</p>
-        <p style="color:rgba(245,240,232,0.7);font-size:1rem;line-height:1.7;">Four days. Three nights. 42 kilometres through Gondwana World Heritage rainforest, ending at the thundering 100m Minyon Falls.</p>
+        <span class="section-label" style="color:var(--gold);margin-bottom:0.5rem;">The region at a glance</span>
+        <p style="color:rgba(245,240,232,0.7);font-size:1rem;line-height:1.7;">Ancient Gondwana rainforest. Volcanic ridgelines. Native bush foods. Wildlife. And a guide who has known this country his whole life.</p>
         <div class="stat-row">
-          <div class="stat-item"><div class="num">42</div><div class="label">Kilometres</div></div>
-          <div class="stat-item"><div class="num">4</div><div class="label">Days / 3 Nights</div></div>
-          <div class="stat-item"><div class="num">2&ndash;6</div><div class="label">Guests max</div></div>
-          <div class="stat-item"><div class="num">100m</div><div class="label">Minyon Falls</div></div>
+          <div class="stat-item"><div class="num">3hr</div><div class="label">Shortest walk</div></div>
+          <div class="stat-item"><div class="num">5+</div><div class="label">Days available</div></div>
+          <div class="stat-item"><div class="num">2&ndash;8</div><div class="label">Group size</div></div>
+          <div class="stat-item"><div class="num">100%</div><div class="label">Private groups</div></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- WILDLIFE -->
 <section class="wildlife-strip">
   <div class="wildlife-strip-inner">
-    <span class="strip-label">Wildlife you may encounter on the track</span>
+    <span class="strip-label">Wildlife you may encounter</span>
     <div class="wildlife-grid">
       <div class="wildlife-item reveal">
         <img src="images/koala.jpg" alt="Koala in eucalyptus" loading="lazy">
@@ -329,7 +346,7 @@ footer{background:var(--ink);padding:4vh 6vw;display:flex;justify-content:space-
       </div>
       <div class="wildlife-item reveal reveal-delay-1">
         <img src="images/goanna.jpg" alt="Lace Monitor Goanna" loading="lazy">
-        <div class="wildlife-caption"><h4>Lace Monitor</h4><p>Goanna &mdash; ancient and unhurried</p></div>
+        <div class="wildlife-caption"><h4>Lace Monitor</h4><p>Ancient and unhurried on the forest floor</p></div>
       </div>
       <div class="wildlife-item reveal reveal-delay-2">
         <img src="images/kookaburra.jpg" alt="Kookaburra" loading="lazy">
@@ -339,35 +356,37 @@ footer{background:var(--ink);padding:4vh 6vw;display:flex;justify-content:space-
   </div>
 </section>
 
-<section class="rainforest-feature reveal">
-  <img src="images/mt-wollumbin.jpg" alt="Mt Wollumbin and the Tweed caldera at sunrise" loading="lazy">
-  <div class="rainforest-text">
+<!-- MOUNTAIN FEATURE -->
+<section class="mountain-feature reveal">
+  <img src="images/mt-wollumbin.jpg" alt="Mt Wollumbin sunrise Tweed Caldera Northern Rivers NSW" loading="lazy">
+  <div class="mountain-text">
     <h2>Walk the rim of an <em>ancient volcano</em></h2>
-    <p>Sweeping views of Mt Wollumbin and the Tweed Caldera greet you on Day 2 &mdash; one of the most breathtaking panoramas in Australia.</p>
+    <p>The Tweed Caldera is one of the largest extinct shield volcanoes on earth. Jarien knows its ridgelines, forests and lookouts intimately &mdash; places most visitors never find.</p>
   </div>
 </section>
 
+<!-- JARIEN -->
 <section class="jarien" id="jarien">
   <div class="jarien-bg"></div>
   <div class="jarien-inner">
     <div class="jarien-text reveal">
       <span class="section-label">Your Guide</span>
       <h2>Meet <em>Jarien</em></h2>
-      <p>Jarien was born and raised in this country. He didn't discover the Northern Rivers hinterland &mdash; he grew up in it. His knowledge of the land, its plants, its animals and its stories comes not from a guidebook but from a lifetime of living here.</p>
+      <p>Jarien was born and raised in the Northern Rivers hinterland. He didn't discover this country &mdash; he grew up in it. His knowledge of the land, its plants, its animals and its stories comes not from a guidebook but from a lifetime of living here.</p>
       <p>Before returning home, Jarien honed his craft guiding in the Kimberley &mdash; one of Australia's most demanding and remote wilderness regions. That experience forged a calm, highly skilled guide equally at home on technical terrain as he is quietly pointing out a lyrebird or pulling a bush tucker snack straight from the understorey.</p>
-      <p>His passion for native bush foods brings something genuinely rare to your journey: tastings and stories woven throughout each day, and meals that draw on the very landscape you're walking through. Every evening in camp, Jarien leads a bush survival talk &mdash; sharing which plants sustain life, which to avoid, and how the land feeds those who know how to read it.</p>
+      <p>Jarien knows the Gidjuum Gulganyi Walk country intimately &mdash; having walked those ridges and valleys many times &mdash; and that deep knowledge of the landscape, flora, fauna and Bundjalung cultural heritage informs every walk he leads. His private guided experiences take place on accessible trails and private land throughout the region.</p>
       <ul class="credential-list">
         <li>Born and raised in the Tweed-Byron hinterland</li>
         <li>Extensive Kimberley wilderness guiding experience</li>
         <li>Wilderness First Aid certified</li>
         <li>Deep knowledge of local flora, fauna &amp; Bundjalung cultural heritage</li>
         <li>Native bush food specialist &amp; survival skills educator</li>
-        <li>Maximum 6 guests &mdash; your group only, always</li>
+        <li>Private groups only &mdash; maximum 8 guests</li>
       </ul>
     </div>
     <div class="jarien-portrait reveal reveal-delay-2">
       <div class="portrait-frame">
-        <img src="images/jarien.jpg" alt="Jarien &mdash; guide &mdash; holding bush foods">
+        <img src="images/jarien.jpg" alt="Jarien &mdash; private guide &mdash; holding bush foods in the field">
       </div>
       <div class="quote-pull">
         <p>"This country has been walked for millennia. My job is to help you feel that &mdash; not just see it."</p>
@@ -377,88 +396,165 @@ footer{background:var(--ink);padding:4vh 6vw;display:flex;justify-content:space-
   </div>
 </section>
 
+<!-- PACKAGES -->
 <section class="packages" id="packages">
   <div class="packages-header reveal">
     <div>
       <span class="section-label">Private Experiences</span>
-      <h2>Choose your <em>journey</em></h2>
+      <h2>Choose your <em>walk</em></h2>
     </div>
-    <p>All packages are private &mdash; your group only. Prices per person based on group of 2. Larger groups receive a per-person reduction.</p>
+    <p>All walks are private &mdash; your group exclusively. Prices shown per person. Minimum 2 guests for all experiences.</p>
   </div>
   <div class="package-grid">
+
+    <!-- Half Day -->
     <div class="package-card reveal">
-      <div class="package-type">Duo Escape</div>
-      <div class="package-name">Just the Two of You</div>
-      <div class="package-tagline">Intimate. Unhurried. Unforgettable.</div>
-      <div class="package-price"><span class="price-amount">$2,400</span><span class="price-unit">/ person</span></div>
-      <p class="price-note">Based on 2 guests &middot; 4 days / 3 nights</p>
+      <div class="package-type">Half Day</div>
+      <div class="package-name">Morning in the Bush</div>
+      <div class="package-tagline">3&ndash;4 hours. Bush tucker. Pure country.</div>
+      <table class="price-table">
+        <tr><td>1&ndash;2 guests</td><td>$350 total</td></tr>
+        <tr><td>3&ndash;4 guests</td><td>$195 pp</td></tr>
+        <tr><td>5&ndash;8 guests</td><td>$150 pp</td></tr>
+      </table>
+      <p class="price-note">Guide only. Morning tea &amp; bush tucker tastings included. Meeting point Mullumbimby or agreed location.</p>
       <div class="package-divider"></div>
       <ul class="package-includes">
-        <li>Fully private &mdash; Jarien guides only your group</li>
-        <li>All meals freshly prepared by dedicated camp cook</li>
-        <li>Elevated tent platforms, quality tents &amp; bedding</li>
-        <li>Bush tucker tastings &amp; survival talks every evening</li>
-        <li>Return transfers from Mullumbimby or Byron Bay</li>
-        <li>National Parks camping fees included</li>
-        <li>Hiking poles &amp; personal locator beacon</li>
+        <li>3&ndash;4 hour private guided walk</li>
+        <li>Bush tucker foraging &amp; tastings throughout</li>
+        <li>Wildlife spotting &amp; plant identification</li>
+        <li>Morning tea included</li>
+        <li>Tailored to your fitness &amp; interests</li>
       </ul>
       <a href="#booking" class="package-btn outline">Enquire</a>
     </div>
+
+    <!-- Full Day (featured) -->
     <div class="package-card featured reveal reveal-delay-1">
       <div class="featured-badge">Most Popular</div>
-      <div class="package-type">Signature Private</div>
-      <div class="package-name">Small Group Experience</div>
-      <div class="package-tagline">The full experience, perfected.</div>
-      <div class="package-price"><span class="price-amount">$1,950</span><span class="price-unit">/ person</span></div>
-      <p class="price-note">Based on 4 guests &middot; 4 days / 3 nights</p>
+      <div class="package-type">Full Day</div>
+      <div class="package-name">A Day on Country</div>
+      <div class="package-tagline">6&ndash;8 hours. The full experience.</div>
+      <table class="price-table">
+        <tr><td>1&ndash;2 guests</td><td>$620 total</td></tr>
+        <tr><td>3&ndash;4 guests</td><td>$340 pp</td></tr>
+        <tr><td>5&ndash;8 guests</td><td>$260 pp</td></tr>
+      </table>
+      <p class="price-note">Includes trail lunch &amp; all tastings. Pick-up from Mullumbimby or Byron Bay.</p>
       <div class="package-divider"></div>
       <ul class="package-includes">
-        <li>Fully private &mdash; Jarien guides only your group</li>
-        <li>Dedicated camp cook &mdash; fresh, native-inspired meals</li>
-        <li>Morning bush tucker walks with Jarien</li>
-        <li>Campfire bush survival talk every single night</li>
-        <li>Premium bedding, quality tents &amp; camp chairs</li>
-        <li>All transfers included (airport or local)</li>
-        <li>National Parks fees, gear hire &amp; emergency beacon</li>
-        <li>Pre-walk orientation &amp; personalised itinerary</li>
+        <li>6&ndash;8 hour private guided walk</li>
+        <li>Bush tucker forage walk &amp; extended tastings</li>
+        <li>Fire-cooked or packed trail lunch included</li>
+        <li>Evening bush food &amp; survival talk</li>
+        <li>Wildlife &amp; cultural heritage interpretation</li>
+        <li>Pickup from Mullumbimby or Byron Bay</li>
+        <li>Tailored route &amp; pace for your group</li>
       </ul>
-      <a href="#booking" class="package-btn gold">Book This Experience</a>
+      <a href="#booking" class="package-btn gold">Book This Walk</a>
     </div>
+
+    <!-- Multi-Day -->
     <div class="package-card reveal reveal-delay-2">
-      <div class="package-type">Adventurer's Private</div>
-      <div class="package-name">Carry Your Own Pack</div>
-      <div class="package-tagline">Full immersion. Private guide. You carry.</div>
-      <div class="package-price"><span class="price-amount">$1,650</span><span class="price-unit">/ person</span></div>
-      <p class="price-note">Based on 4&ndash;6 guests &middot; 4 days / 3 nights</p>
+      <div class="package-type">Multi-Day</div>
+      <div class="package-name">Wild Nights Out</div>
+      <div class="package-tagline">2&ndash;5 days. Camp cook. Stars overhead.</div>
+      <table class="price-table">
+        <tr><td>2 guests</td><td>$950 pp / night</td></tr>
+        <tr><td>3&ndash;4 guests</td><td>$720 pp / night</td></tr>
+        <tr><td>5&ndash;8 guests</td><td>$580 pp / night</td></tr>
+      </table>
+      <p class="price-note">Includes dedicated camp cook, all meals, camping equipment &amp; transfers. Routes on private land &amp; accessible trails.</p>
       <div class="package-divider"></div>
       <ul class="package-includes">
-        <li>Fully private group &mdash; Jarien your dedicated guide</li>
-        <li>Camp cook at each overnight stop</li>
-        <li>You carry your own pack (tent &amp; sleeping kit supplied)</li>
-        <li>Fresh camp meals &amp; native snacks daily</li>
-        <li>Evening bush food &amp; survival talks every night</li>
-        <li>Return transfers from Mullumbimby or Byron Bay</li>
-        <li>National Parks fees included</li>
+        <li>2&ndash;5 day private guided walk</li>
+        <li>Dedicated camp cook &mdash; fresh meals nightly</li>
+        <li>Bush tucker foraging &amp; talks every evening</li>
+        <li>Quality tents &amp; bedding supplied</li>
+        <li>All transfers from Mullumbimby or Byron Bay</li>
+        <li>Customised route &amp; itinerary</li>
       </ul>
       <a href="#booking" class="package-btn outline">Enquire</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHAT A DAY LOOKS LIKE -->
+<section class="dayshape" id="itinerary">
+  <div class="dayshape-inner">
+    <div class="dayshape-intro reveal">
+      <span class="section-label">How it works</span>
+      <h2>What a <em>full day</em> with Jarien looks like</h2>
+      <p>Every walk is shaped around your group. But here's a sense of the rhythm of a full day &mdash; equal parts exploration, discovery and pure enjoyment of being in wild country.</p>
+      <p>Multi-day walks follow the same spirit across several days, with campfire evenings and bush survival talks built into every night.</p>
+    </div>
+    <div class="day-list reveal reveal-delay-1">
+      <div class="day-item">
+        <div class="day-connector"></div>
+        <div class="day-num-wrap"><div class="day-dot">AM</div></div>
+        <div class="day-content">
+          <p class="day-label">Morning &middot; 7:30am pickup</p>
+          <h3>Meeting &amp; First Steps</h3>
+          <p>Jarien meets your group in Mullumbimby or Byron Bay. Coffee stop, introductions, and straight into the bush. Within the first 20 minutes he'll have pointed out something most people walk past their whole lives.</p>
+        </div>
+      </div>
+      <div class="day-item">
+        <div class="day-connector"></div>
+        <div class="day-num-wrap"><div class="day-dot">MID</div></div>
+        <div class="day-content">
+          <p class="day-label">Mid-Morning &middot; walking &amp; foraging</p>
+          <h3>Bush Tucker Forage Walk</h3>
+          <p>Moving through the landscape at a relaxed pace, Jarien identifies edible plants, tracks wildlife and shares the stories of the country &mdash; Bundjalung cultural heritage woven into everything you see and touch.</p>
+          <div class="tucker-talk-badge">&#127807; Live bush tucker tasting throughout</div>
+        </div>
+      </div>
+      <div class="day-item">
+        <div class="day-connector"></div>
+        <div class="day-num-wrap"><div class="day-dot">12</div></div>
+        <div class="day-content">
+          <p class="day-label">Midday &middot; rest &amp; eat</p>
+          <h3>Lunch in the Field</h3>
+          <p>A proper lunch &mdash; fire-cooked or packed depending on the location. Native ingredients sourced along the way where possible. One of those meals you talk about long after you get home.</p>
+        </div>
+      </div>
+      <div class="day-item">
+        <div class="day-connector"></div>
+        <div class="day-num-wrap"><div class="day-dot">PM</div></div>
+        <div class="day-content">
+          <p class="day-label">Afternoon &middot; deeper country</p>
+          <h3>Into the Hinterland</h3>
+          <p>The afternoon walk takes you into more remote terrain &mdash; ridgelines, creek valleys or rainforest, depending on your route. Wildlife encounters increase as the heat drops.</p>
+        </div>
+      </div>
+      <div class="day-item">
+        <div class="day-num-wrap"><div class="day-dot">END</div></div>
+        <div class="day-content">
+          <p class="day-label">Late Afternoon &middot; wind down</p>
+          <h3>Bush Food &amp; Survival Talk</h3>
+          <p>Before the day ends, Jarien rounds off with a talk on bush survival &mdash; which plants sustain life, how to find water, the practical knowledge that changes how you see the natural world forever. Transfer back to your starting point.</p>
+          <div class="tucker-talk-badge">&#127807; Included on all full day &amp; multi-day walks</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- BUSH TUCKER -->
 <section class="bushtucker" id="bush-tucker">
   <div class="bushtucker-inner">
     <span class="section-label">Bush Tucker &amp; Survival</span>
     <div class="bushtucker-intro">
       <div class="reveal">
         <h2>The land <em>feeds those</em> who know how to read it</h2>
-        <p>For tens of thousands of years, the Bundjalung people walked this country and knew exactly what it offered &mdash; which plants healed, which seeds sustained, which fruits could be eaten raw and which needed preparation to be safe. That knowledge is a form of literacy as complex and vital as any written language.</p>
-        <p>Jarien brings this literacy to every walk. Each day on the track includes bush tucker tastings and plant identification. Each evening in camp, he leads a dedicated <strong style="color:var(--gold)">Bush Food &amp; Survival Talk</strong> &mdash; covering the essential skills of reading a landscape for food, water and shelter, and the cultural significance of the plants around you.</p>
-        <p>It's not just fascinating &mdash; it's the kind of knowledge that changes how you see the natural world forever.</p>
+        <p>For tens of thousands of years, the Bundjalung people walked this country and knew exactly what it offered &mdash; which plants healed, which seeds sustained, which fruits could be eaten raw and which needed preparation to be safe.</p>
+        <p>Jarien brings this literacy to every walk. Each day includes bush tucker tastings and plant identification. On full day and multi-day walks, he leads a dedicated <strong style="color:var(--gold)">Bush Food &amp; Survival Talk</strong> &mdash; covering how to read a landscape for food, water and shelter.</p>
+        <p>It is not just fascinating &mdash; it is the kind of knowledge that changes how you see the natural world forever.</p>
       </div>
       <div class="reveal reveal-delay-2">
         <div class="survival-box">
           <h3>Why this knowledge matters</h3>
-          <p>Knowing what you can eat in the bush is the difference between panic and calm in an unexpected situation. Jarien covers edible plants, safe water sourcing, and basic shelter &mdash; practical, engaging and grounded in deep local knowledge. By day four, you'll walk out of Minyon Falls with eyes completely transformed.</p>
+          <p>Knowing what you can eat in the bush is the difference between panic and calm in an unexpected situation. Jarien covers edible plants, safe water sourcing, and basic shelter &mdash; practical, engaging and grounded in deep local knowledge. You will walk out with eyes completely transformed.</p>
         </div>
       </div>
     </div>
@@ -480,113 +576,61 @@ footer{background:var(--ink);padding:4vh 6vw;display:flex;justify-content:space-
       <div class="tucker-feature reveal">
         <span class="icon">&#127807;</span>
         <h3>Wattleseed</h3>
-        <p>Ground wattleseed has been a staple of Aboriginal diets for millennia &mdash; high in protein and fat with a rich, nutty, coffee-like flavour. Jarien uses it in camp cooking throughout the walk.</p>
+        <p>Ground wattleseed has been a staple for millennia &mdash; high in protein and fat with a rich, nutty, coffee-like flavour. Jarien uses it in camp cooking on multi-day walks.</p>
       </div>
       <div class="tucker-feature reveal reveal-delay-1">
         <span class="icon">&#127819;</span>
         <h3>Finger Lime</h3>
-        <p>Found along the rainforest edge, finger limes burst open to reveal tiny translucent pearls packed with intense citrus flavour. One of Australia's most prized bush foods &mdash; Jarien will show you exactly where to find them on the track.</p>
+        <p>Found along rainforest edges, finger limes burst open to reveal tiny translucent pearls packed with intense citrus flavour. One of Australia's most prized bush foods &mdash; Jarien knows exactly where to find them.</p>
       </div>
       <div class="tucker-feature reveal reveal-delay-2">
         <span class="icon">&#127807;</span>
-        <h3>Native Thyme &amp; Basil</h3>
-        <p>Prostanthera species thrive in the region's rich volcanic soil. Jarien incorporates them in camp meals and teaches you to identify them by scent as you pass through.</p>
+        <h3>Native Thyme &amp; Lemon Myrtle</h3>
+        <p>Prostanthera and Backhousia species thrive in the region's rich volcanic soil. Jarien incorporates them in camp meals and teaches identification by scent as you walk.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- MEALS -->
 <section class="food">
   <div class="food-inner">
     <span class="section-label">Nourishment on Country</span>
     <h2>Food that <em>tastes like this land</em></h2>
-    <p>Your dedicated camp cook travels ahead each day to set up camp and prepare fresh, seasonal food &mdash; no dehydrated packets, no compromise. Budget covers all ingredients, cook wages and transport for the full walk.</p>
+    <p>On multi-day walks, your dedicated camp cook travels ahead each day to prepare fresh, seasonal food &mdash; no dehydrated packets, no compromise.</p>
     <div class="food-grid">
-      <div class="food-card reveal"><div class="food-icon">&#127748;</div><h3>Sunrise Breakfast</h3><p>Damper with wattleseed butter, eggs cooked over coals, fresh fruit, wild herb tea &mdash; fuel that feels like ceremony.</p></div>
+      <div class="food-card reveal"><div class="food-icon">&#127748;</div><h3>Sunrise Breakfast</h3><p>Damper with wattleseed butter, eggs cooked over coals, fresh fruit and wild herb tea &mdash; fuel that feels like ceremony.</p></div>
       <div class="food-card reveal reveal-delay-1"><div class="food-icon">&#127807;</div><h3>Trail Snacks &amp; Bush Tucker</h3><p>Jarien stops throughout the day to share what the land provides &mdash; lemon aspen, finger lime, native thyme, macadamia. Tasting the forest as you walk it.</p></div>
-      <div class="food-card reveal reveal-delay-2"><div class="food-icon">&#128293;</div><h3>Camp Fire Dinner</h3><p>Slow-cooked stews, fire-baked breads, charred local vegetables and native spices. Every dinner is different, every meal made with care.</p></div>
+      <div class="food-card reveal reveal-delay-2"><div class="food-icon">&#128293;</div><h3>Camp Fire Dinner</h3><p>Slow-cooked stews, fire-baked breads, charred local vegetables and native spices. Every dinner different, every meal made with care.</p></div>
       <div class="food-card reveal"><div class="food-icon">&#9749;</div><h3>Camp Coffee &amp; Tea</h3><p>Specialty coffee brewed by hand each morning. Wild herb infusions &mdash; lemon myrtle, bush mint &mdash; collected as you walk.</p></div>
-      <div class="food-card reveal reveal-delay-1"><div class="food-icon">&#127806;</div><h3>Dietary Needs Welcome</h3><p>Plant-based, gluten-free, or any other requirement &mdash; let us know at booking. Your cook will plan your entire menu around you.</p></div>
-      <div class="food-card reveal reveal-delay-2"><div class="food-icon">&#129474;</div><h3>The Camp Cook</h3><p>A second team member travels with Jarien on every private walk &mdash; managing food logistics, camp setup and all meals so Jarien stays fully present with you on the track.</p></div>
+      <div class="food-card reveal reveal-delay-1"><div class="food-icon">&#127806;</div><h3>Dietary Needs Welcome</h3><p>Plant-based, gluten-free, or any other requirement &mdash; let us know at booking and your cook will plan the entire menu around you.</p></div>
+      <div class="food-card reveal reveal-delay-2"><div class="food-icon">&#129474;</div><h3>The Camp Cook</h3><p>A second team member joins every multi-day walk &mdash; managing food, camp setup and all meals so Jarien stays fully present with you on the track.</p></div>
     </div>
   </div>
 </section>
 
-<section class="itinerary" id="itinerary">
-  <div class="itinerary-inner">
-    <div class="itinerary-intro reveal">
-      <span class="section-label">Day by Day</span>
-      <h2>Four days. <em>One track. A lifetime of stories.</em></h2>
-      <p>Every day brings a different world &mdash; volcanic ridgelines, ancient Antarctic beech groves, creek gorges, rainforest cathedral. Jarien shapes the pace around you.</p>
-      <p>Each evening finishes with a campfire <strong>Bush Food &amp; Survival Talk</strong> &mdash; one of the most memorable parts of the entire journey.</p>
-    </div>
-    <div class="day-list reveal reveal-delay-1">
-      <div class="day-item">
-        <div class="day-connector"></div>
-        <div class="day-num-wrap"><div class="day-dot">01</div></div>
-        <div class="day-content">
-          <p class="day-label">Day 1 &middot; ~7km</p>
-          <h3>Arrival on Country &mdash; Unicorn Falls to Sand Ridge Camp</h3>
-          <p>Meet Jarien in Uki for a morning coffee and cultural introduction. Stop at the ethereal Unicorn Falls before entering the forest. Your first bush tucker tasting as you walk.</p>
-          <p class="day-meals">&#127829; Lunch on trail &middot; Camp fire dinner &middot; Night 1: Sand Ridge Camp</p>
-          <div class="tucker-talk-badge">&#127807; Evening Talk: Introduction to Bush Food &mdash; reading the rainforest</div>
-        </div>
-      </div>
-      <div class="day-item">
-        <div class="day-connector"></div>
-        <div class="day-num-wrap"><div class="day-dot">02</div></div>
-        <div class="day-content">
-          <p class="day-label">Day 2 &middot; ~16&ndash;18km</p>
-          <h3>The Big Ridge &mdash; Sand Ridge to Yelgun Kyoomgun</h3>
-          <p>The most demanding and most spectacular day. High ridge walking with sweeping views of Wollumbin and the Tweed Caldera. Jarien shares Bundjalung stories of the peaks and points out ridge-dwelling edible plants along the way.</p>
-          <p class="day-meals">&#127829; Trail snacks &middot; Summit lunch &middot; Hearty camp dinner &middot; Night 2: Yelgun Kyoomgun</p>
-          <div class="tucker-talk-badge">&#127807; Evening Talk: Water Sourcing &amp; High-Country Plant Identification</div>
-        </div>
-      </div>
-      <div class="day-item">
-        <div class="day-connector"></div>
-        <div class="day-num-wrap"><div class="day-dot">03</div></div>
-        <div class="day-content">
-          <p class="day-label">Day 3 &middot; ~12km</p>
-          <h3>Rainforest &amp; Gorge &mdash; to Weeun Weeun Camp</h3>
-          <p>A more forgiving day deep in the forest. Swim in a secluded creek gorge. Wanganui Gorge lookout opens dramatically. Extended bush tucker foraging walk as you approach camp.</p>
-          <p class="day-meals">&#127829; Bush breakfast &middot; Trail lunch &middot; Bush tucker feast &middot; Night 3: Weeun Weeun</p>
-          <div class="tucker-talk-badge">&#127807; Evening Talk: Cooking with Country &mdash; preparing a meal from wild ingredients</div>
-        </div>
-      </div>
-      <div class="day-item">
-        <div class="day-num-wrap"><div class="day-dot">04</div></div>
-        <div class="day-content">
-          <p class="day-label">Day 4 &middot; ~11.9km</p>
-          <h3>Minyon Falls &mdash; The Finish</h3>
-          <p>Walk through Nightcap National Park's palm-shaded gorges to the thundering 100m Minyon Falls lookout. Side trip to the base of the falls. Final bush tucker walk before transfers back.</p>
-          <p class="day-meals">&#127829; Final camp breakfast &middot; Celebration lunch at falls &middot; Transfers depart ~3pm</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+<!-- LOGISTICS -->
 <section class="logistics">
   <div class="logistics-inner">
     <span class="section-label">Good to Know</span>
     <h2>Everything handled.<br>You just show up.</h2>
     <div class="logistics-grid">
-      <div class="logistic-item reveal"><span class="icon">&#128654;</span><h3>Transfers</h3><p>Return transfers from Byron Bay, Mullumbimby, Ballina Airport, or Gold Coast Airport included in all packages.</p></div>
-      <div class="logistic-item reveal reveal-delay-1"><span class="icon">&#9981;</span><h3>Accommodation</h3><p>Elevated hardwood tent platforms in certified NSW National Parks campgrounds. Premium tents and quality bedding supplied.</p></div>
-      <div class="logistic-item reveal reveal-delay-2"><span class="icon">&#127890;</span><h3>What to Bring</h3><p>Day pack, walking shoes, rain jacket, personal items. A detailed packing list is sent on booking. We handle everything else.</p></div>
-      <div class="logistic-item reveal reveal-delay-3"><span class="icon">&#128205;</span><h3>Fitness Level</h3><p>Grade 4 &mdash; moderate to challenging. Day 2 is strenuous (18km, 1000m elevation). Solid fitness and comfortable with long walking days required.</p></div>
+      <div class="logistic-item reveal"><span class="icon">&#128654;</span><h3>Pickup &amp; Drop-off</h3><p>Jarien collects your group from Mullumbimby, Byron Bay or agreed location. No logistics stress.</p></div>
+      <div class="logistic-item reveal reveal-delay-1"><span class="icon">&#9981;</span><h3>Camping</h3><p>Multi-day walks use private land camping &amp; accessible sites. Quality tents and bedding supplied on all overnight experiences.</p></div>
+      <div class="logistic-item reveal reveal-delay-2"><span class="icon">&#127890;</span><h3>What to Bring</h3><p>Comfortable walking shoes, water bottle, sun protection and a sense of curiosity. Full packing list sent on booking.</p></div>
+      <div class="logistic-item reveal reveal-delay-3"><span class="icon">&#128205;</span><h3>Fitness Level</h3><p>Walks are tailored to your group. Gentle ambles to challenging ridge walks &mdash; just tell us your level and we will match the terrain.</p></div>
     </div>
   </div>
 </section>
 
+<!-- BOOKING -->
 <section class="booking" id="booking">
   <div class="booking-inner">
-    <span class="section-label">Reserve Your Dates</span>
-    <h2>Ready to walk <em>old country</em>?</h2>
-    <p>Private departures can be scheduled year-round, subject to availability. Enquire now to check dates and hold your group's preferred experience.</p>
+    <span class="section-label">Reserve Your Walk</span>
+    <h2>Ready to get <em>out there</em>?</h2>
+    <p>All walks are private and can be scheduled to suit your group. Enquire now and Jarien will respond within 24 hours to discuss dates, route and any special requirements.</p>
     <form class="booking-form" id="enquiryForm" name="enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-      <p class="hidden" style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
+      <p class="hidden" style="display:none;"><label>Do not fill this out: <input name="bot-field"></label></p>
       <input type="hidden" name="form-name" value="enquiry">
       <div class="form-row">
         <div class="form-group"><label for="fname">First Name</label><input type="text" id="fname" name="fname" placeholder="Your name" required></div>
@@ -598,26 +642,27 @@ footer{background:var(--ink);padding:4vh 6vw;display:flex;justify-content:space-
       </div>
       <div class="form-row">
         <div class="form-group">
-          <label for="package">Package Interest</label>
+          <label for="package">Walk Type</label>
           <select id="package" name="package">
-            <option value="">Select a package</option>
-            <option>Duo Escape &mdash; $2,400 pp</option>
-            <option>Signature Private &mdash; $1,950 pp</option>
-            <option>Adventurer's Private &mdash; $1,650 pp</option>
-            <option>Not sure yet &mdash; tell me more</option>
+            <option value="">Select a walk</option>
+            <option>Half Day &mdash; Morning in the Bush</option>
+            <option>Full Day &mdash; A Day on Country</option>
+            <option>Multi-Day &mdash; Wild Nights Out</option>
+            <option>Not sure &mdash; tell me more</option>
           </select>
         </div>
         <div class="form-group">
           <label for="guests">Number of Guests</label>
           <select id="guests" name="guests">
             <option value="">Select</option>
-            <option>2 guests</option><option>3 guests</option><option>4 guests</option>
-            <option>5 guests</option><option>6 guests</option>
+            <option>1 guest</option><option>2 guests</option><option>3 guests</option>
+            <option>4 guests</option><option>5 guests</option><option>6 guests</option>
+            <option>7 guests</option><option>8 guests</option>
           </select>
         </div>
       </div>
       <div class="form-group"><label for="dates">Preferred Dates or Season</label><input type="text" id="dates" name="dates" placeholder="e.g. May 2026, school holidays, flexible..."></div>
-      <div class="form-group"><label for="message">Anything else?</label><textarea id="message" name="message" placeholder="Dietary needs, fitness level, special occasions, questions..."></textarea></div>
+      <div class="form-group"><label for="message">Anything else?</label><textarea id="message" name="message" placeholder="Fitness level, dietary needs, special occasions, questions..."></textarea></div>
       <button type="submit" class="form-submit" id="submitBtn">Send Enquiry &rarr;</button>
     </form>
     <p id="success-msg">&#10022; Enquiry sent &mdash; Jarien will be in touch within 24 hours.</p>
@@ -627,24 +672,24 @@ footer{background:var(--ink);padding:4vh 6vw;display:flex;justify-content:space-
 
 <!-- CLOSING MINYON FALLS -->
 <section style="position:relative;height:70vh;overflow:hidden;">
-  <img src="images/minyon-falls-final.jpg" alt="Minyon Falls" style="width:100%;height:100%;object-fit:cover;object-position:center;">
+  <img src="images/minyon-falls-final.jpg" alt="Northern Rivers hinterland" style="width:100%;height:100%;object-fit:cover;object-position:center;">
   <div style="position:absolute;inset:0;background:linear-gradient(to bottom,rgba(26,18,8,0.15) 0%,rgba(26,18,8,0.65) 100%);"></div>
   <div style="position:absolute;bottom:0;left:0;right:0;text-align:center;padding:5vh 6vw;z-index:2;">
-    <p style="font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem;">Gidjuum Gulganyi Walk &middot; Bundjalung Country</p>
+    <p style="font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem;">Mullumbimby &middot; Byron Bay Hinterland &middot; Northern Rivers NSW</p>
     <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(3rem,7vw,6.5rem);color:var(--cream);line-height:0.95;margin-bottom:2rem;"><em>Now is the time.</em></h2>
-    <a href="#booking" class="btn-primary" style="display:inline-block;">Reserve Your Walk &rarr;</a>
+    <a href="#booking" class="btn-primary" style="display:inline-block;">Book Your Walk &rarr;</a>
   </div>
 </section>
 
 <footer>
   <div class="footer-brand">Walk with Jarien</div>
   <ul class="footer-links">
-    <li><a href="#packages">Packages</a></li>
+    <li><a href="#packages">Walks</a></li>
     <li><a href="#bush-tucker">Bush Tucker</a></li>
     <li><a href="#booking">Book</a></li>
     <li><a href="mailto:jarienkstar@gmail.com">jarienkstar@gmail.com</a></li>
   </ul>
-  <p class="footer-note">Gidjuum Gulganyi &middot; Bundjalung Country &middot; Northern NSW</p>
+  <p class="footer-note">Mullumbimby &middot; Bundjalung Country &middot; Northern Rivers NSW</p>
 </footer>
 
 <script>
@@ -654,12 +699,9 @@ document.addEventListener("mousemove",e=>{mouseX=e.clientX;mouseY=e.clientY;curs
 function animateRing(){ringX+=(mouseX-ringX-18)*0.12;ringY+=(mouseY-ringY-18)*0.12;cursorRing.style.left=ringX+"px";cursorRing.style.top=ringY+"px";requestAnimationFrame(animateRing);}
 animateRing();
 document.querySelectorAll("a,button").forEach(el=>{el.addEventListener("mouseenter",()=>{cursor.style.transform="scale(2)";cursorRing.style.transform="scale(1.5)";});el.addEventListener("mouseleave",()=>{cursor.style.transform="scale(1)";cursorRing.style.transform="scale(1)";});});
-const reveals=document.querySelectorAll(".reveal");
-new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible");});},{threshold:0.1}).observe||reveals.forEach(el=>new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible");});},{threshold:0.1}).observe(el));
 const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible");});},{threshold:0.1});
-reveals.forEach(el=>obs.observe(el));
+document.querySelectorAll(".reveal").forEach(el=>obs.observe(el));
 document.querySelectorAll("a[href^='#']").forEach(a=>{a.addEventListener("click",e=>{e.preventDefault();const t=document.querySelector(a.getAttribute("href"));if(t)t.scrollIntoView({behavior:"smooth"});});});
-
 document.getElementById("enquiryForm").addEventListener("submit",async function(e){
   e.preventDefault();
   const btn=document.getElementById("submitBtn");
